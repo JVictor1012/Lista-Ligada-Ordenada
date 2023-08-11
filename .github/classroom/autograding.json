@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "test1",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/test_lista_ligada.py -k is_empty -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test2",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/test_lista_ligada.py -k is_full -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test3",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/test_lista_ligada.py -k add -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "test4",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/test_lista_ligada.py -k remove -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 6
+    },
+    {
+      "name": "test5",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/test_lista_ligada.py -k contains -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },
+    {
+      "name": "test6",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/test_lista_ligada.py -k display -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test7",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test/test_lista_ligada.py -k size -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
